@@ -31,7 +31,7 @@ status (they must be adjacent to each other).
 Remove any old events due to adjacencies that have ended and insert any new intersection events from adjacencies that have been created.
 
 
-
+Polygon triangulation:
 Let Minimum Cost of triangulation of vertices from i to j be minCost(i, j)
 If j < i + 2 Then
   minCost(i, j) = 0
