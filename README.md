@@ -1,8 +1,9 @@
 # COMPUTATIONAL-GEOMETRY-CODES-CU-2nd-sem-assignment-
-1.Slope range counting
-2.Covex hull: Graham scan algorithm
-3.Covex hull: Jarvis' march algorithm
-4.Polygon triangulation
+1.Slope range counting [O(nlogn)]
+2.Covex hull: Graham scan algorithm [O(nlogn)]
+3.Covex hull: Jarvis' march / Gift wrapping algorithm [O(nh)]
+4.Plane sweep / Line sweep algorithm
+5.Polygon triangulation
 
 
 
