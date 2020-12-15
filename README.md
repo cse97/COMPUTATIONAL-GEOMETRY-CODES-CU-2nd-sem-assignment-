@@ -29,3 +29,15 @@ Intersection:
 status (they must be adjacent to each other).
 (c) As a result, s' and s" have changed which segments are immediately above and below them.
 Remove any old events due to adjacencies that have ended and insert any new intersection events from adjacencies that have been created.
+
+
+
+Let Minimum Cost of triangulation of vertices from i to j be minCost(i, j)
+If j < i + 2 Then
+  minCost(i, j) = 0
+Else
+  minCost(i, j) = Min { minCost(i, k) + minCost(k, j) + cost(i, k, j) }
+                  Here k varies from 'i+1' to 'j-1'
+
+Cost of a triangle formed by edges (i, j), (j, k) and (k, i) is 
+  cost(i, j, k)  = dist(i, j) + dist(j, k) + dist(k, i)
